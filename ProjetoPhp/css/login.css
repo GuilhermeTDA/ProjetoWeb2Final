@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    background-color: #3a3737;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    color: #EF4992;
+    background-color: #545454;
+    margin: 0px auto;
+    justify-content: space-between;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+header ul {
+    padding: 40px;
+    display: flex;
+
+}
+
+header li {
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;
+
+}
+
+header img {
+    padding: 50px;
+    height: 80px;
+    width: 80px;
+    border-radius: 200px;
+
+}
+ main{
+    font-size: 15pt;
+    color: #EF4992;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     margin: 40px;
+     padding: 40px;
+     height: auto;
+ }
+
+header h1 {
+    font-size: 50px;
+    padding-left: 10%;
+}
+
+.container {
+    background-color: #545454;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 30%;
+    border: 1px solid black;
+    margin: 30px auto;
+    margin-top: 100px;
+   
+}
+ul li a {
+    color: #EF4992 ;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: none;
+}
+
+ul li a:visited {
+    color: inherit;
+}
+.container form {
+    width: 250px;
+    background-color: #545454;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+
+}
+
+form input {
+    height: 25px;
+    width: 250px;
+    margin: 10px;
+}
+
+form h2 {
+    color: #EF4992;
+    font-size: medium;
+}
+
+.botao input {
+    background-color: #EF4992;
+    border-radius: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+footer {
+
+    display: flex;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    flex-direction: row;
+    padding: 30px 0;
+    background-color: #6A2C3F;
+    position: relative;
+    margin-top: 250px;
+    
+    
+  
+    
+}
+
+footer img {
+    margin-left: 50px;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+footer h1 {
+    color: #EF4992;
+    font-size: x-large;
+    margin-left: 700px;
+}
+
+label {
+    color: #EF4992;
+}
+.boxDisc a{
+    color: #ffffff ;
+    text-decoration: none;
+}
+.boxDisc a:hover{
+text-decoration: none;
+}
+.boxDisc a:visited {
+    color: inherit;
+}
+
+.boxDisc {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.boxDisc button{
+    background-color:#EF4992;
+}

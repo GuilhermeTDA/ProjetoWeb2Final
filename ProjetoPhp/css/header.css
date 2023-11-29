@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    color: #EF4992;
+    background-color: #545454;
+    margin: 0px auto;
+    justify-content: space-between;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+header ul {
+    padding: 40px;
+    display: flex;
+
+}
+
+header li {
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;
+
+}
+
+header img {
+    padding: 50px;
+    height: 70px;
+}
+
+header h1 {
+    font-size: 50px;
+    padding-left: 10%;
+
+}
+.boxDisc a{
+    color: #ffffff ;
+    text-decoration: none;
+}
+.boxDisc a:hover{
+text-decoration: none;
+}
+.boxDisc a:visited {
+    color: inherit;
+}
+
+.boxDisc {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.boxDisc button{
+    background-color:#EF4992;
+}
